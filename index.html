@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" 
+            crossorigin="anonymous">
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <title>Rat Dev</title>
+        <link rel="shortcut icon" href="./img/pp.gif" type="image/x-icon">
+    </head>
+    <body>
+        <div class="h-main">
+            <p class="h-item h1">Rat <b class="e1">Dev</b></p>
+            <p class="w1"></p>
+            <button onclick="btn1()" class="sf"><ion-icon class="h-item h2" name="menu"></ion-icon></button>
+            <button onclick="btn2()"class="sf"><ion-icon class="h-item h3" name="close"></ion-icon></button>
+        </div>
+        <div class="m-main">
+            <a onclick="btn2()" href="#" class="m-item m1">HOME</a>
+            <a onclick="btn2()" href="#about" class="m-item m2">ABOUT ME</a>
+            <a onclick="btn2()" href="#skill" class="m-item m3">SKILLS</a>
+            <a onclick="btn3()" href="#" class="m-item m4">CONFIG</a>
+        </div>
+        <div class="c-main">
+            <p class="c-item c1">Select your language</p>
+            <div class="row">
+                <button onclick="btn4()" class="c-item c2">PT-BR</button>
+                <button onclick="btn5()" class="c-item c3">ENG</button>
+            </div>
+        </div>
+        <div onclick="btnc()" class="a-main">
+            <div class="col s">
+                <p class="a-item eng a1"><b class="e1 a1"> Hello</b>, my name is</p>
+                <p class="a-item eng a2">Pedro,<b class="e1 a2"> A.K.A Rat</b></p>
+                <p class="a-item eng a3">I am a&ensp;<b class="e1 a3">Front</b>&ensp;End&ensp;<b class="e1 a3">Developer</b></p>
+                <p class="a-item br a1"><b class="e1 a1"> Eai</b>, meu nome é</p>
+                <p class="a-item br a2">Pedro,<b class="e1 a2"> A.K.A Rat</b></p>
+                <p class="a-item br a3">Eu sou um &ensp;<b class="e1 a3">Desenvolvedor</b>&ensp;Front&ensp;<b class="e1 a3">End</b></p>
+                <div class="row">
+                    <p class="a-item a4">scroll down</p>
+                    <img class="a-item a5" src="./img/seta.gif">
+                </div>
+            </div>
+            <a href="https://discord.gg/rFMgyseENU" target="_blank">
+                <div class="disc s">
+                    <img class="disc-item dc1" src="./img/dcb.gif">
+                    <img class="disc-item dc2" src="./img/pp.gif">
+                    <p class="disc-item dc3">.</p>
+                    <img class="disc-item dc4" src="./img/boost.png">
+                    <img class="disc-item dc5" src="./img/npic.webp">
+                    <p class="disc-item dc6">rat.7<b class="e2">#0007</b></p>
+                    <p class="disc-item dc7">☯️o pior inimigo é oque anda do seu lado...</p>
+                </div>
+            </a>
+        </div>
+        <div id="about" class="b-main">
+            <p class="w2"></p>
+            <img class="b-item s2 b1" src="./img/pp.gif">
+            <div class="col s2">
+                <p class="b-item eng b2"><b class="e1 b2">Hello</b>&ensp;and&ensp;<b class="e1 b2">Welcome</b>&ensp;to&ensp;my&ensp;"portifolio"!</p>
+                <p class="b-item eng b3">I&ensp;am&ensp;junior&ensp;developer&ensp;and&ensp;i&ensp;code&ensp;about&ensp;6&ensp;months.<br>I´m&ensp;16&ensp;years&ensp;old&ensp;and&ensp;i&ensp;live&ensp;in&ensp;São&ensp;Paulo,&ensp;Brazil,&ensp;i&ensp;speek&ensp;2&ensp;(&ensp;almost&ensp;3&ensp;)&ensp;languages,&ensp;Portuguese,&ensp;English&ensp;and&ensp;Spanish,&ensp;and&ensp;i´m&ensp;in&ensp;the&ensp;high&ensp;school.<br>Today&ensp;i´m&ensp;a&ensp;freelancer,&ensp;and&ensp;my&ensp;commissions&ensp;are&ensp;open.</p>
+                <p class="b-item br b2"><b class="e1 b2">Eai</b>&ensp;Seja&ensp;<b class="e1 b2">Bem&ensp;Vindo</b>&ensp;ao&ensp;meu&ensp;"portifolio"!</p>
+                <p class="b-item br b3">Eu&ensp;sou&ensp;um&ensp;developer&ensp;junior&ensp;e&ensp;eu&ensp;programo&ensp;a&ensp;uns&ensp;6&ensp;meses.<br>Eu&ensp;tenho&ensp;16&ensp;anos&ensp;e&ensp;moro&ensp;em&ensp;São&ensp;Paulo,&ensp;Brasil&ensp;e&ensp;falo&ensp;2&ensp;(&ensp;quase&ensp;3&ensp;)&ensp;linguas,&ensp;Portugues,&ensp;Ingles&ensp;e&ensp;Espanhol&ensp;e&ensp;eu&ensp;atualmente&ensp;estou&ensp;no&ensp;colegial.<br>Atualmente&ensp;eu&ensp;sou&ensp;freelancer,&ensp;e&ensp;as&ensp;comissões&ensp;estão&ensp;abertas.</p>
+            </div>
+        </div>
+        <div class="d-main">
+            <p class="d-item d1">My <b class="e1 ar d1">Skills</b></p>
+            <div id="skill" class="skill-main">
+                <p class="sk-item sk1">HTML & HTML5</p>
+                <div class="row">
+                    <div class="skb1"><div class="skb2"></div></div>
+                    <p class="sk-item sk2">&ensp;98%</p>
+                </div>
+                <p class="sk-item sk1">CSS & CSS3</p>
+                <div class="row">
+                    <div class="skb3"><div class="skb4"></div></div>
+                    <p class="sk-item sk2">&ensp;86%</p>
+                </div>
+                <p class="sk-item sk1">JavaScript & TypeScript</p>
+                <div class="row">
+                    <div class="skb5"><div class="skb6"></div></div>
+                    <p class="sk-item sk2">&ensp;32%</p>
+                </div>
+                <p class="sk-item sk1">React & Next</p>
+                <div class="row">
+                    <div class="skb7"><div class="skb8"></div></div>
+                    <p class="sk-item sk2">&ensp;2%</p>
+                </div>
+            </div>
+        </div>
+        <div class="final">
+            <p class="fitem">Made with ❤️ by Rat Dev | Todos os direitos reservados ©</p>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
