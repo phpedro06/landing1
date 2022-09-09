@@ -36,5 +36,8 @@ function btnc() {
     $(".h2").css("display", "flex")
     $(".h3").css("display", "none")
 }
+function cann() {
+    $(".an-main").css("display", "none")
+}
 
 console.log("Made with ❤️ by Rat Dev | Todos os direitos reservados ©")
