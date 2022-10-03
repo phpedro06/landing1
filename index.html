@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" 
+            crossorigin="anonymous">
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <title>Rat Dev</title>
+        <link rel="shortcut icon" href="./img/p1.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="h-main">
+            <p class="h-item h1">Rat <b class="e1 arr">Dev</b></p>
+            <p class="w1"></p>
+            <button onclick="btn1()" class="sf"><ion-icon class="h-item h2" name="menu"></ion-icon></button>
+            <button onclick="btn2()"class="sf"><ion-icon class="h-item h3" name="close"></ion-icon></button>
+        </div>
+        <div class="m-main">
+            <a onclick="btn2()" href="#" class="m-item m1">HOME</a>
+            <a onclick="btn2()" href="#skills" class="m-item m2">SKILLS</a>
+            <a onclick="btn2()" href="#projects" class="m-item m3">PROJECTS</a>
+            <a onclick="btn6()" href="#" class="m-item m3">CONTACT</a>
+            <a onclick="btn3()" href="#" class="m-item m4">CONFIG</a>
+        </div>
+        <div class="c-main">
+            <p class="c-item c1">Select your language</p>
+            <div class="row">
+                <button onclick="btn4()" class="c-item c2">PT-BR</button>
+                <button onclick="btn5()" class="c-item c3">ENG</button>
+            </div>
+        </div>
+        <div class="z-main">
+            <p class="z-item z1">Hey, you can find me in:</p>
+            <div class="row">
+                <ion-icon class="z2 zs" name="logo-discord"></ion-icon>
+                <p class="z3 zs">rat7<b class="z4">#0007</b></p>
+            </div>
+        </div>
+        <div onclick="btnc()" class="a-main">
+            <p class="w2"></p>
+            <div class="col sep">
+                <p class="eng a-item a1"><b class="e1 aaa">Hello</b>,&ensp;my&ensp;name&ensp;is</p>
+                <p class="eng a-item a2">Pedro,<b class="e1 a2">AKA&ensp;Rat</b></p>
+                <p class="eng a-item a3">And&ensp;i´m&ensp;a&ensp;<b class="e1 aaa">Front-end&ensp;Developer</b></p>
+                <p class="br a-item a1"><b class="e1 aaa">Eai</b>,&ensp;meu&ensp;nome&ensp;é</p>
+                <p class="br a-item a2">Pedro,<b class="e1 a2">AKA&ensp;Rat</b></p>
+                <p class="br a-item a3">E&ensp;eu&ensp;sou&ensp;um&ensp;<b class="e1 aaa">Desenvolvedor&ensp;Front-end</b></p>
+            </div>
+            <img class="sep a-item a4" src="./img/p1.png">
+        </div>
+        <div id="skills" onclick="btnc()" class="b-main">
+            <p class="b-item eng b1">My&ensp;<b class="e1 b4">Skills</b></p>
+            <p class="b-item br b1">Minhas&ensp;<b class="e1 b4">Skills</b></p>
+            <p class="b-item b2">HTML & HTML5</p>
+            <div class="row">
+                <div class="sk1"><div class="sk2"></div></div>
+                <p class="b-item b3">93%</p>
+            </div>
+            <p class="b-item b2">CSS & CSS3</p>
+            <div class="row">
+                <div class="sk3"><div class="sk4"></div></div>
+                <p class="b-item b3">89%</p>
+            </div>
+            <p class="b-item b2">Javascript</p>
+            <div class="row">
+                <div class="sk5"><div class="sk6"></div></div>
+                <p class="b-item b3">32%</p>
+            </div>
+            <p class="w3"></p>
+        </div>
+        <div onclick="btnc()" class="d-main">
+            <p class="d-item eng d1">Some&ensp;of&ensp;my&ensp;<b class="e1">projects</b></p>
+            <p class="d-item br d1">Alguns&ensp;dos&ensp;meus&ensp;<b class="e1">projetos</b></p>
+            <div onclick="btnc()" id="projects" class="p-main">
+                <a href="https://rat-rat7.vercel.app" target="_blank" onmouseenter="prja1()" onmouseleave="prjf1()" class="sprj prj-main1">
+                    <img class="prj-item1 prj1" src="./img/prj1.png">
+                    <p class="prj-item1 prj2"><b class="e2">Portifoio</b>&ensp;Project</p>
+                    <p class="prj-item1 eng prj3">A&ensp;website&ensp;designed&ensp;for&ensp;me&ensp;to&ensp;me,&ensp;just&ensp;to&ensp;show&ensp;some&ensp;of&ensp;my&ensp;projects&ensp;and&ensp;my&ensp;skills.</p>
+                    <p class="prj-item1 br prj3">Um&ensp;website&ensp;desenvolvido&ensp;para&ensp;mim&ensp;e&ensp;por,&ensp;mim&ensp;para&ensp;mostrar&ensp;alguns&ensp;dos&ensp;meus&ensp;projetos&ensp;e&ensp;minhas&ensp;skills.</p>
+                    <p class="w4"></p>
+                </a>
+                <a href="#" onmouseenter="prja2()" onmouseleave="prjf2()" class="sprj prj-main2">
+                    <img class="prj-item1 prj4" src="./img/prj2.gif">
+                    <p class="prj-item1 eng prj5"><b class="e3">Under</b>&ensp;Development</p>
+                    <p class="prj-item1 br prj5"><b class="e3">Em</b>&ensp;Desenvolvimento</p>
+                    <p class="prj-item1 eng prj6">I´m&ensp;working&ensp;on&ensp;new&ensp;projects,&ensp;some&ensp;of&ensp;them&ensp;will&ensp;be&ensp;posted&ensp;here.</p>
+                    <p class="prj-item1 br prj6">Eu&ensp;estou&ensp;trabalhando&ensp;em&ensp;projetos,&ensp;novos&ensp;e&ensp;alguns&ensp;delesl&ensp;vão&ensp;ser&ensp;postados&ensp;aqui.</p>
+                    <p class="w4"></p>
+                </a>
+            </div>
+        </div>
+        <div class="final">
+            <p class="fitem">Made with ❤️ by Rat Dev | Todos os direitos reservados ©</p>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
